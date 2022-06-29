@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import Tools from '../tools/index.jsx'
-
+let a =0
 const Canvas = ({width,height}) =>{
   const canvasRef = useRef()
   const ctxRef = useRef()
