@@ -1,0 +1,27 @@
+.tools{
+  display: flex;
+  flex-direction: row;
+}
+.colors{
+  margin-right: 15px;
+  border-radius: 4px;
+  max-height: 25px;
+  border:3px solid black;
+}
+.color-picker{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.btn{
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+.boxes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
